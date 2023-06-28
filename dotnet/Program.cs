@@ -13,7 +13,7 @@ string[] initialArray = new string [8] {"458", "72", "student", "sol", "song", "
 
 string[] resultingArray = new string[initialArray.Length];
 
-string[] SecondArrayWithIF(string[] initialArray, string[] resultingArray)
+string[] NewArrayOfStrings(string[] initialArray, string[] resultingArray)
 {
     int temp = 0;
     for (int i = 0; i < initialArray.Length; i++)
@@ -46,5 +46,5 @@ Console.WriteLine("Получить новый массив из строк, д�
 Console.WriteLine();
 Console.WriteLine("Полученный массив");
 
-resultingArray = SecondArrayWithIF(initialArray, resultingArray);
+resultingArray = NewArrayOfStrings(initialArray, resultingArray);
 PrintArray(resultingArray);
